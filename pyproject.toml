@@ -18,4 +18,5 @@ dependencies = [
 ]
 
 [tool.setuptools.packages.find]
-include = ["pipelines", "espnet"]
+where = ["."]
+include = ["pipelines*", "espnet*"]
