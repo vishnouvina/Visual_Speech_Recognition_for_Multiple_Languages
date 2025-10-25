@@ -1,0 +1,18 @@
+[project]
+name = "visual-speech-recognition-for-multiple-languages"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+	"torch",
+	"torchvision",
+	"torchaudio",
+	"opencv-python",
+	"scipy",
+	"scikit-image",
+	"av",
+	"six",
+	"mediapipe",
+	"ffmpeg-python",
+]
