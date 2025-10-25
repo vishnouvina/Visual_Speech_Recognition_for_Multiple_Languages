@@ -1,22 +1,22 @@
 [project]
 name = "autoavsr"
 version = "0.1.0"
-description = "Audio-Visual Speech Recognition"
+description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
-    "torch",
-    "torchvision",
-    "torchaudio",
-    "opencv-python",
-    "scipy",
-    "scikit-image",
-    "av",
-    "six",
-    "mediapipe",
-    "ffmpeg-python",
+	"torch",
+	"torchvision",
+	"torchaudio",
+	"opencv-python",
+	"scipy",
+	"scikit-image",
+	"av",
+	"six",
+	"mediapipe",
+	"ffmpeg-python",
 ]
 
 [tool.setuptools.packages.find]
-where = ["autoavsr"]
-include = ["autoavsr*"]
+where = ["."]
+include = ["pipelines*", "espnet*"]
