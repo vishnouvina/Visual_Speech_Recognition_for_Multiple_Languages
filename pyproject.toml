@@ -16,3 +16,6 @@ dependencies = [
 	"mediapipe",
 	"ffmpeg-python",
 ]
+
+[tool.setuptools.packages.find]
+include = ["pipelines", "espnet"]
