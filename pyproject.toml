@@ -1,5 +1,5 @@
 [project]
-name = "visual-speech-recognition-for-multiple-languages"
+name = "autoavsr"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
