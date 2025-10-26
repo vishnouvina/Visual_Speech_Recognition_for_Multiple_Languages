@@ -20,3 +20,7 @@ dependencies = [
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["pipelines*", "espnet*"]
+
+[tool.setuptools.package-data]
+"pipelines" = ["**/*.txt", "**/*.npy", "**/*.json"]
+"espnet" = ["**/*.txt", "**/*.npy", "**/*.json"]
